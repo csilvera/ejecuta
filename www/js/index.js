@@ -273,7 +273,8 @@ function inventario(){
   xmlhttp.open("GET", "https://didigitales.tigersoftware.net.ve/inventario-lista", true);
   xmlhttp.send();
 
-  }else{
+  }
+else{
     
     cr = localStorage.getItem('rcertifica');
     $('#Status').empty();
