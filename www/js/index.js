@@ -93,13 +93,13 @@ var app = {
     
 	bindEvents: function() {
         document.addEventListener('deviceready', this.onDeviceReady, false);
-		certifica();
     },
     // Update DOM on a Received Event
     onDeviceReady: function() {
         
 		document.addEventListener("menubutton", onMenuKeyDown, false);
 		document.addEventListener("backbutton", onBackKeyDown, false);
+		certifica();
     }
 };
 
